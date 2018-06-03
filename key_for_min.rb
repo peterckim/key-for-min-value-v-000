@@ -3,6 +3,7 @@
 
 def key_for_min_value(name_hash)
   count = 99999
+  index = 0
   if name_hash.empty?
     return nil
   else
